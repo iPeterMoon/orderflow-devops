@@ -6,6 +6,12 @@ import java.math.BigDecimal;
 import java.util.*;
 import java.util.concurrent.atomic.AtomicLong;
 
+/**
+ * Servicio de negocio encargado de la gestión y almacenamiento en memoria
+ * de las órdenes.
+ * <p>
+ * Contiene métodos sincronizados para garantizar la consistencia.
+ */
 @Service
 public class OrderService {
     private final Map<Long, Order> orders = new LinkedHashMap<>();

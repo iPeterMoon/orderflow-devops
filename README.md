@@ -4,9 +4,13 @@ OrderFlow funciona localmente, pero deliberadamente NO contiene el delivery syst
 
 ## ¿De qué trata el sistema?
 
-OrderFlow simula el procesamiento de pedidos de una empresa. Su API permite registrar pedidos asociados con un cliente, consultar los pedidos existentes y verificar el estado de salud del servicio. También incluye un componente de notificaciones que, más adelante, se preparará para ejecutarse como una función AWS Lambda.
+OrderFlow simula el procesamiento de pedidos de una empresa. Su API permite registrar pedidos asociados con un cliente,
+consultar los pedidos existentes y verificar el estado de salud del servicio. También incluye un componente de
+notificaciones que, más adelante, se preparará para ejecutarse como una función AWS Lambda.
 
-La funcionalidad de negocio inicial es deliberadamente pequeña porque el propósito del proyecto no es construir una tienda completa. Durante el semestre, el equipo transformará la manera en que OrderFlow se integra, prueba, empaqueta, entrega, despliega, aprovisiona y observa mediante prácticas DevOps reproducibles.
+La funcionalidad de negocio inicial es deliberadamente pequeña porque el propósito del proyecto no es construir una
+tienda completa. Durante el semestre, el equipo transformará la manera en que OrderFlow se integra, prueba, empaqueta,
+entrega, despliega, aprovisiona y observa mediante prácticas DevOps reproducibles.
 
 ## Requisitos
 
@@ -18,7 +22,8 @@ Más adelante: Docker, AWS CLI, Terraform, Minikube, kubectl y Kompose.
 
 ## Bootstrap del repositorio del equipo
 
-Cada equipo crea en la Sesión 1 su propio repositorio GitHub, por ejemplo `orderflow-equipo-03`. Ese repositorio será la **source of truth** durante todo el semestre.
+Cada equipo crea en la Sesión 1 su propio repositorio GitHub, por ejemplo `orderflow-equipo-03`. Ese repositorio será la
+**source of truth** durante todo el semestre.
 
 Importen el starter y creen el baseline:
 
@@ -75,8 +80,10 @@ docs/evidence/
 └── sprint-07.md
 ```
 
-Usen PR, pipeline, deployment o infraestructura sólo cuando ya correspondan al Sprint. Antes de eso registren: `N/A — todavía no corresponde a este Sprint.`
+Usen PR, pipeline, deployment o infraestructura sólo cuando ya correspondan al Sprint. Antes de eso registren:
+`N/A — todavía no corresponde a este Sprint.`
 
 ## Regla del semestre
 
-No implementen por adelantado `.github/workflows`, `delivery`, `infra`, `k8s` u `observability`. Esas carpetas se desarrollan progresivamente como evidencia de aprendizaje.
+No implementen por adelantado `.github/workflows`, `delivery`, `infra`, `k8s` u `observability`. Esas carpetas se
+desarrollan progresivamente como evidencia de aprendizaje.
